@@ -1,0 +1,53 @@
+Sample
+minimum operands, special case of zeros
+0
+0
+0
+first operand zero, multiple commas
+0
+1234567890
+1234567890
+second operand zero, one comma
+98765
+0
+98765
+same length operands, no carries, no commas
+123
+456
+579
+first operand smaller
+23
+444
+467
+second operand smaller
+654
+10
+664
+carry in every position
+99999
+1
+100000
+carry in every position, reversed operands, minimum single comma
+1
+999
+1000
+max digit in every position, all carries
+9999
+99999999
+100009998
+max int operand, result > max int
+2147483648
+1
+2147483649
+operands > max int
+111222333444555
+606060606060606
+717282939505161
+multiple zero digits
+20000000
+7000
+20007000
+high-order digit carry only
+811
+911
+1722
